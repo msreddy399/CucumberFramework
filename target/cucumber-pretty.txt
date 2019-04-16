@@ -1,0 +1,6 @@
+Feature: Sample feature1
+
+  @Sample_01 @High @Sample
+  Scenario: Sample scenario1    # src/test/java/resources/features/Sample1.feature:4
+    Given User access home page # Common_SD.user_access_home_page()
+    Then verify the page title  # Common_SD.verify_the_page_title()

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
+<testcase classname="Sample feature1" name="Sample scenario1" time="0">
+<system-out><![CDATA[Given User access home page.................................................skipped
+Then verify the page title..................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

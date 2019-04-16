@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Sample scenario1",
+        "description": "",
+        "id": "sample-feature1;sample-scenario1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User access home page",
+            "match": {
+              "location": "Common_SD.user_access_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "verify the page title",
+            "match": {
+              "location": "Common_SD.verify_the_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Sample_01"
+          },
+          {
+            "line": 3,
+            "name": "@High"
+          },
+          {
+            "line": 3,
+            "name": "@Sample"
+          }
+        ]
+      }
+    ],
+    "name": "Sample feature1",
+    "description": "",
+    "id": "sample-feature1",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/features/Sample1.feature"
+  }
+]
